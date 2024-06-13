@@ -1,7 +1,7 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.addEventListener('keydown', function() {
+    document.addEventListener('click', function() {
         // Hide the start overlay
         document.getElementById('start-overlay').style.display = 'none';
         
