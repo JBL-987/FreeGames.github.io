@@ -1,1 +1,42 @@
+ body {
+            position: absolute;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
 
+        #container {
+            position: absolute;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #game-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            color: rgb(255, 255, 255);
+            padding: 5px;
+            z-index: 20;
+        }
+
+        #start-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('images/Background.jpg'); /* Path to your image */
+            background-size: cover; /* Scale the image to cover the entire container */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-position: center;
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            z-index: 40; /* Ensure it is above other elements */
+        }
